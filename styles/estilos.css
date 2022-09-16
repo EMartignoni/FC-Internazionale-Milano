@@ -8,6 +8,10 @@
     background-image: linear-gradient(to right, rgb(0, 0, 122) , rgb(9, 8, 8));
 }
 
+.borde{
+    border: none;
+}
+
 /* Footer */
 footer{
     border: solid 3px rgb(205, 202, 184);
