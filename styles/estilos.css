@@ -3,13 +3,58 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url("/imagenes_inter/BG2.jpg");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .fondo-nav{
     background-image: linear-gradient(to right, rgb(0, 0, 122) , rgb(9, 8, 8));
 }
 
+.subtitulo-equipo{
+    color: white;
+    border: 3px solid silver;
+}
+.titulin{
+    color: white;
+    justify-content: center;
+}
+.parra{
+    text-align: center;
+}
 .borde{
     border: none;
+}
+.cuadro{
+    border: 3px solid silver;
+}
+
+
+
+/* INICIO */
+.segunda-parte img{ 
+    width: 80%;
+    display: flex;
+    place-items: center;
+    text-align: center;
+    justify-content: center;
+    border: solid 3px silver;
+}
+
+/* ESTADIO */
+.estadio img{
+    width: 50%;
+    margin: 10px;
+    border: 3px solid silver;
+    transition: all 2s ease;
+}
+
+.estadio img:hover {
+    border-radius: 500px;
+    width: 55%;
 }
 
 /* Footer */
@@ -19,6 +64,9 @@ footer{
     width: 100%;
     margin-bottom: 0;
     margin-top: 50px;
+    position: static ;
+    bottom: 0;
+    
     }
     footer h2{
         display: flex;
