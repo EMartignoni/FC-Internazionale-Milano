@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("/imagenes_inter/BG2.jpg");
+    /* background-image: url("/imagenes_inter/BG2.jpg");
     background-position: absolute;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-image: linear-gradient(to left, rgb(10, 10, 73) , rgb(5, 5, 5)) ;
 }
 
 .fondo-nav{
@@ -56,6 +57,25 @@ body{
     border-radius: 500px;
     width: 55%;
 }
+
+/* LOGROS */
+.trophy{
+    width: 500px;
+    border: 3px solid silver;
+    transition: all 3s ease;
+    margin: 8px;
+}
+.trophy:hover{
+    border-radius: 250px;
+}
+
+/* ICONOS */
+h6{
+    color: bisque;
+    font-size: .8rem;
+}
+
+
 
 /* Footer */
 footer{
