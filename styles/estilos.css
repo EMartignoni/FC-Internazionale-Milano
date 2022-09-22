@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    /* background-image: url("/imagenes_inter/BG2.jpg");
-    background-position: absolute;
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-image: linear-gradient(to left, rgb(10, 10, 73) , rgb(5, 5, 5)) ;
 }
 
