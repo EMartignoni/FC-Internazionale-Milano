@@ -1,0 +1,23 @@
+/* EQUIPO */
+
+.subtitulo-equipo{
+    color: $color-titles;
+    border: 3px solid silver;
+}
+
+.titulin{
+    color: $color-titles;
+    justify-content: center;
+}
+
+.borde{
+    border: none;
+}
+
+.player{
+    width: 260px;
+    height: 370px;
+    text-align: center;
+    object-fit: cover;
+}
+

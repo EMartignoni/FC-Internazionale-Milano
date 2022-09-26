@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Para h6 */
+/* Para titulos y subtitulos */
+/* Para BG footer */
+/* Para bordes estadio*/
+/* Para bordes escudos */
+/* Gradiente BG nav */
+/* Gradiente BG body */
+/* Header */
+.fondo-nav {
+  background-image: linear-gradient(to right, #00007a, #090808);
+}
+
+/* Footer */
+footer {
+  border: solid 3px rgb(205, 202, 184);
+  background-color: #353535;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 50px;
+  position: static;
+  bottom: 0;
+}
+footer h2 {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+}
+
+/* INICIO */
+body {
+  background-image: linear-gradient(to left, #0a0a49, #050505);
+}
+
+.segunda-parte img {
+  width: 80%;
+  display: flex;
+  place-items: center;
+  text-align: center;
+  justify-content: center;
+  border: solid 3px #c0c0c0;
+}
+
+.escudos {
+  display: flex;
+  justify-content: center;
+}
+.escudos img {
+  border: 3px solid #c0c0c0;
+  transition: all 2s ease;
+  width: 75%;
+}
+.escudos img:hover {
+  border: 3px solid #f9b70f;
+  border-radius: 5px;
+  width: 85%;
+}
+
+/* EQUIPO */
+.subtitulo-equipo {
+  color: #ffffff;
+  border: 3px solid silver;
+}
+
+.titulin {
+  color: #ffffff;
+  justify-content: center;
+}
+
+.borde {
+  border: none;
+}
+
+.player {
+  width: 260px;
+  height: 370px;
+  text-align: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* ESTADIO */
+.estadio {
+  display: flex;
+  justify-content: center;
+}
+.estadio img {
+  width: 35%;
+  margin: 10px;
+  border: 3px solid #c0c0c0;
+  transition: all 2s ease;
+}
+.estadio img:hover {
+  border-radius: 500px;
+  width: 40%;
+  border: #f9b70f 3px solid;
+}
+
+/* ICONOS */
+h6 {
+  color: #ffe4c4;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* LOGROS */
+.trophy {
+  width: 500px;
+  border: 3px solid #f9b70f;
+  transition: all 3s ease;
+  margin: 8px;
+}
+.trophy:hover {
+  border-radius: 250px;
+}/*# sourceMappingURL=estilo.css.map */

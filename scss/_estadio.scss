@@ -1,0 +1,16 @@
+/* ESTADIO */
+.estadio{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 35%;
+        margin: 10px;
+        border: 3px solid $color-bordestadio;
+        transition: all 2s ease;
+        &:hover{
+            border-radius: 500px;
+            width: 40%;
+            border: $color-bordescudo 3px solid;
+        }
+    }
+}
