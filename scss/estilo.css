@@ -11,6 +11,7 @@
 /* Para bordes escudos */
 /* Gradiente BG nav */
 /* Gradiente BG body */
+/* LETRA */
 /* Header */
 .fondo-nav {
   background-image: linear-gradient(to right, #00007a, #090808);
@@ -35,6 +36,8 @@ footer h2 {
 /* INICIO */
 body {
   background-image: linear-gradient(to left, #0a0a49, #050505);
+  font-family: "Comic Neue", cursive;
+  text-align: center;
 }
 
 .segunda-parte img {
@@ -62,9 +65,8 @@ body {
 }
 
 /* EQUIPO */
-.subtitulo-equipo {
-  color: #ffffff;
-  border: 3px solid silver;
+.borde {
+  border: none;
 }
 
 .titulin {
@@ -72,8 +74,9 @@ body {
   justify-content: center;
 }
 
-.borde {
-  border: none;
+.subtitulo-equipo {
+  color: #ffffff;
+  border: 3px solid silver;
 }
 
 .player {
