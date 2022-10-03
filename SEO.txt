@@ -1,0 +1,17 @@
+En el index, agreguéla siguiente descripción "Pagina no oficial del Internazionale di Milano con historia del club, sus colores y escudos."
+Como keywords utilicé estas "Inter, internazionale milano, inter-milan, club, futbol, football, evolución del escudo"
+
+En la sección equipo, agreguéla siguiente descripción "Pagina no oficial del Internazionale di Milano con el plantel actualizado."
+Como keywords utilicé estas "Inter, internazionale milano, inter-milan, club, futbol, football, equipo, jugadores, Lukaku, Lautaro Martinez, Barella, Brozovic, Handanović."
+
+En la sección estadio, agreguéla siguiente descripción "Pagina no oficial del Internazionale di Milano con la historia de su estadio."
+Como keywords utilicé estas "Inter, internazionale milano, inter-milan, club, futbol, football, estadio, San Siro, Giuseppe Meazza, Milano, derbi, Madonnina"
+
+En la sección logros, agreguéla siguiente descripción "Pagina no oficial del Internazionale di Milano con todos sus logros, fechas y detalles de cada trofeo ganado"
+Como keywords utilicé estas "Inter, internazionale milano, inter-milan, club, futbol, football, serie A, Scudetto, Coppa, coppa-italia, supercoppa, trofeo, champions-league, UEFA, europa League, copa intercontinental, mundial de clubes."
+
+En la sección iconos, agreguéla siguiente descripción "Pagina no oficial del Internazionale di Milano en la cual podras conocer algunas de las leyendas que han jugado en el club."
+Como keywords utilicé estas "Inter, internazionale milano, inter-milan, club, futbol, football, leyendas, iconos, salon de la fama."
+
+
+Reducción del peso de todas las imágenes.

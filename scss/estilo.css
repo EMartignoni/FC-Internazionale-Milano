@@ -12,6 +12,11 @@
 /* Gradiente BG nav */
 /* Gradiente BG body */
 /* LETRA */
+.boton1, .boton button {
+  margin: 10px;
+  padding: 10px;
+}
+
 /* Header */
 .fondo-nav {
   background-image: linear-gradient(to right, #00007a, #090808);
@@ -62,6 +67,21 @@ body {
   border: 3px solid #f9b70f;
   border-radius: 5px;
   width: 85%;
+}
+
+.boton {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.boton button {
+  border-radius: 5px;
+  background-color: #c0c0c0;
+}
+.boton button a {
+  color: #ffe4c4;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* EQUIPO */

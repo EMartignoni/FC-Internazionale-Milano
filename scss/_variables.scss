@@ -15,19 +15,23 @@
     /* LETRA */
     $esilo-letra: 'Comic Neue', cursive;
 
+    .boton1{
+        margin: 10px;
+        padding: 10px;
+    }
 
-
-    @mixin boton ($bg) {
+    @mixin boton {
         display: flex;
         flex-direction: row;
         justify-content: end;
-        &__arriba{
+        button{
             border-radius:5px ;
             background-color: $color-bordestadio ;
-        }
-        &__letras{
-            color: $color-h6;
-            text-align: center;
+            @extend .boton1 ;
+            a{ color: $color-h6;
+                text-align: center;
+                text-decoration: none;
+            
+            }
         }
     }
-    
