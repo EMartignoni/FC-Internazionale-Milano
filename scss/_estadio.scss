@@ -14,3 +14,60 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .estadio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+        img{
+            width: 65%;
+            border: 3px solid $color-bordestadio;
+            transition: all 2s ease;
+            &:hover{
+                border-radius: 500px;
+                width: 85%;
+                border: $color-bordescudo 3px solid;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .estadio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+        img{
+            width: 65%;
+            border: 3px solid $color-bordestadio;
+            transition: all 2s ease;
+            &:hover{
+                border-radius: 500px;
+                width: 85%;
+                border: $color-bordescudo 3px solid;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .estadio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+        img{
+            width: 65%;
+            border: 3px solid $color-bordestadio;
+            transition: all 2s ease;
+            &:hover{
+                border-radius: 500px;
+                width: 85%;
+                border: $color-bordescudo 3px solid;
+            }
+        }
+    }
+}

@@ -2,7 +2,13 @@
 body{
     background-image: $color-bgbody;
     font-family: $esilo-letra;
+    font-size: 1.2rem;
     text-align: center;
+}
+@media (max-width: 576px) {
+    .body{
+        font-size: 1.4rem;
+    }
 }
 .segunda-parte{
     img{ 
@@ -28,6 +34,21 @@ body{
                 width: 85%;
             }
         }
+}
+@media (max-width: 576px) {
+    .escudos{
+        img {
+            border: 3px solid $color-bordestadio;
+            transition: all 2s ease;
+            width: 85% ;
+
+                &:hover{
+                    border: 3px solid $color-bordescudo;
+                    border-radius: 5px;
+                    width: 97%;
+        }
+    }
+}
 }
 
 .boton{@include boton;}
