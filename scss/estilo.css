@@ -25,7 +25,7 @@
 /* Footer */
 footer {
   border: solid 3px rgb(205, 202, 184);
-  background-color: #353535;
+  background: linear-gradient(to right, #00007a, #090808);
   width: 100%;
   margin-bottom: 0;
   margin-top: 50px;
@@ -94,7 +94,7 @@ body {
 }
 .boton button {
   border-radius: 5px;
-  background-color: #c0c0c0;
+  background: linear-gradient(to right, #00007a, #090808);
 }
 .boton button a {
   color: #ffe4c4;
@@ -123,6 +123,14 @@ body {
   text-align: center;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.gapcito {
+  row-gap: 2px;
+}
+
+.botoncito {
+  background: linear-gradient(to right, #00007a, #090808);
 }
 
 /* ESTADIO */
