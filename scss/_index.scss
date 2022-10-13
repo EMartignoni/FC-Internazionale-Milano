@@ -41,7 +41,7 @@ body{
         img {
             border: 3px solid $color-bordestadio;
             transition: all 2s ease;
-            max-width: 570px ;
+            width: 85% ;
 
                 &:hover{
                     border: 3px solid $color-bordescudo;

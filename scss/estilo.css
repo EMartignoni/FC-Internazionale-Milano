@@ -80,7 +80,7 @@ body {
   .escudos img {
     border: 3px solid #c0c0c0;
     transition: all 2s ease;
-    max-width: 570px;
+    width: 85%;
   }
   .escudos img:hover {
     border: 3px solid #f9b70f;
