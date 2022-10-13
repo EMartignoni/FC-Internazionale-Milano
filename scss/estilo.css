@@ -58,6 +58,7 @@ body {
   text-align: center;
   justify-content: center;
   border: solid 3px #c0c0c0;
+  max-width: 100%;
 }
 
 .escudos {
@@ -79,7 +80,7 @@ body {
   .escudos img {
     border: 3px solid #c0c0c0;
     transition: all 2s ease;
-    width: 85%;
+    max-width: 570px;
   }
   .escudos img:hover {
     border: 3px solid #f9b70f;
@@ -125,8 +126,8 @@ body {
      object-fit: cover;
 }
 
-.gapcito {
-  row-gap: 2px;
+.container-equipo {
+  margin: auto;
 }
 
 .botoncito {

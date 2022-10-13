@@ -18,6 +18,7 @@ body{
         text-align: center;
         justify-content: center;
         border: solid 3px $color-bordestadio;
+        max-width: 100%;
     }
 }
 .escudos{
@@ -40,7 +41,7 @@ body{
         img {
             border: 3px solid $color-bordestadio;
             transition: all 2s ease;
-            width: 85% ;
+            max-width: 570px ;
 
                 &:hover{
                     border: 3px solid $color-bordescudo;
